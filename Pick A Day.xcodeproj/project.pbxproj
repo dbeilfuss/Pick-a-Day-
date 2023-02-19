@@ -11,6 +11,7 @@
 		773354BE29A2A204001D6369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773354BD29A2A204001D6369 /* ContentView.swift */; };
 		773354C029A2A205001D6369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773354BF29A2A205001D6369 /* Assets.xcassets */; };
 		773354C329A2A205001D6369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773354C229A2A205001D6369 /* Preview Assets.xcassets */; };
+		773354CA29A2A90A001D6369 /* WeatherDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773354C929A2A90A001D6369 /* WeatherDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		773354BD29A2A204001D6369 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		773354BF29A2A205001D6369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773354C229A2A205001D6369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		773354C929A2A90A001D6369 /* WeatherDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				773354BD29A2A204001D6369 /* ContentView.swift */,
 				773354BF29A2A205001D6369 /* Assets.xcassets */,
 				773354C129A2A205001D6369 /* Preview Content */,
+				773354C929A2A90A001D6369 /* WeatherDatabase.swift */,
 			);
 			path = "Pick A Day";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773354CA29A2A90A001D6369 /* WeatherDatabase.swift in Sources */,
 				773354BE29A2A204001D6369 /* ContentView.swift in Sources */,
 				773354BC29A2A204001D6369 /* Pick_A_DayApp.swift in Sources */,
 			);
