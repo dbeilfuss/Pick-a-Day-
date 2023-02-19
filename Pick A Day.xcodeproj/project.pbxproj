@@ -12,6 +12,7 @@
 		773354C029A2A205001D6369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773354BF29A2A205001D6369 /* Assets.xcassets */; };
 		773354C329A2A205001D6369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773354C229A2A205001D6369 /* Preview Assets.xcassets */; };
 		773354CA29A2A90A001D6369 /* WeatherDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773354C929A2A90A001D6369 /* WeatherDatabase.swift */; };
+		773354D029A2C536001D6369 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773354CF29A2C536001D6369 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		773354BF29A2A205001D6369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773354C229A2A205001D6369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		773354C929A2A90A001D6369 /* WeatherDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDatabase.swift; sourceTree = "<group>"; };
+		773354CF29A2C536001D6369 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		773354BA29A2A204001D6369 /* Pick A Day */ = {
 			isa = PBXGroup;
 			children = (
+				773354CE29A2C4BF001D6369 /* Secret */,
 				773354BB29A2A204001D6369 /* Pick_A_DayApp.swift */,
 				773354BD29A2A204001D6369 /* ContentView.swift */,
 				773354BF29A2A205001D6369 /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				773354C229A2A205001D6369 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		773354CE29A2C4BF001D6369 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				773354CF29A2C536001D6369 /* Secret.swift */,
+			);
+			path = Secret;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				773354CA29A2A90A001D6369 /* WeatherDatabase.swift in Sources */,
+				773354D029A2C536001D6369 /* Secret.swift in Sources */,
 				773354BE29A2A204001D6369 /* ContentView.swift in Sources */,
 				773354BC29A2A204001D6369 /* Pick_A_DayApp.swift in Sources */,
 			);
